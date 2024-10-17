@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Apocositinling> En serio</Apocositinling>
+<fontSize>12</fontSize>
+<fontFamily>Arial</fontFamily>
+<fontStyle>Normal</fontStyle>
+<colors>
+<color>
+<name>Color1</name>
+<value>#FF0000</value>
+</color>
+<color>
+<name>Color2</name>
+<value>#00ff00</value>
+</color>
+</colors>
