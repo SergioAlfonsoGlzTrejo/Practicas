@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <a href="Index.html">🏡 </a>
+    <h1>Formualrios</h1>
+    <h2>Formulario con POST</h2>
+    <form method="POST" action="Formulario.html"><input type="text" name="nombre" placeholder="Nombre" required/></form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" id="nombre"/><br>
+    <input type="password" name="clave"/><br>
+    <input type="file" name="archivo"/><br>
+    <input type="checkbox" name="acepto"/><br>
+
+    <div>
+        <label for="masculino">
+            <input type="radio" id="masculino" name="genero" value="M"/>
+            Masculino
+        </label>
+    </div>
+    <div>
+        <label for="femenino">
+            <input type="radio" id="femenino" name="genero" value="F"/>
+            Femenino
+        </label>
+    </div>
+    <div>
+        <label for="distinto">
+            <input type="radio" id="distinto" name="genero" value="X"/>
+            Distinto
+        </label>
+    </div>
+    <select name="pais">
+        <option value="MX" selected> Mexico </option>
+        <option value="US"> Estados Unidos </option>
+        <option value="CA"> Canada </option>
+    </select><br>
+    <div>
+        <select name="colores" multiple size="2">
+            <option value="rojo">Rojo</option>
+            <option value="Amarillo">Amarillo</option>
+            <option value="Azul">Azul</option>
+        </select>
+    </div><br>
+
+    <div>
+        <select name="colores">
+            <optgroup label="Colores Primarios">
+                <option value="Rojo">Rojo</option>
+                <option value="verde">Verde</option>
+                <option value="azul">Azul</option>
+            </optgroup>
+            <optgroup label="Colores secundarios">
+                <option value="amarillo">Amarillo</option>
+                <option value="naranja">Naranja</option>
+                <option value="violeta">Violeta</option>
+            </optgroup>
+        </select>
+    </div>
+    <input type="email" name="correo"/><br>
+    <input type="url" name="link"/><br>
+    <input type="number" name="numero"/><br>
+    <input type="range" name="rango"/><br>
+    <input type="date" name="fecha"/><br>
+    <input type="month" name="mes"/><br>
+    <input type="week" name="semana"/><br>
+    <input type="time" name="folio"/><br>
+    <input type="datetime-local" name="folio"/><br>
+    <input type="color" name="colores"/><br>
+    <input type="search" name="busqueda"/><br>
+    <input type="tel" name="num_tel"/><br>
+    <textarea name="comentario" rows="4" cols="50">
+        Escribe aqui tu comentario...
+    </textarea>
+    <h2>Formulario con GET</h2>
+    <form method="GET" action="procesa.php"></form>
+</body>
+</html>
