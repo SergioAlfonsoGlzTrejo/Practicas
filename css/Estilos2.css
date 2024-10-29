@@ -1,6 +1,6 @@
-*{/*universal*/
+/**{universal
     color:#ff0022;
-}
+}*/
 h1{/*elemento*/
     color:#1000ff;
 }
@@ -21,9 +21,76 @@ h6.verde{/*combinacion elemento clase*/
 input[type]{
     background-color: rgb(236, 236, 4);
 }
+
+
+div[class~="azul"]{
+    color:blue;
+}
+html[lang|="es"]{
+    font-family:"Arial", sans-serif;
+}
+a[href^="https://"]
+{
+    color: blue;
+}
+
+img[src$=".png"]{
+    border: 1px solid red;
+}
+
+[title*="plan"]{
+    color: green;
+}
+
+
 input[type="text"]:focus{
     background-color: #ff80c0;
 }
 p::first-line{
     font-family: monospace;
+}
+
+a:hover{
+    color: #ff0000;
+}
+button:active{
+    background-color: #0080ff;
+}
+input:focus{
+    background-color: #ff8000;
+}
+input:checked{
+    background-color: #ff0080;
+}
+input:disabled{
+    background-color: #808080;
+    color: white;
+}
+#parrafos p:first-child{
+    background-color: #ff0080;
+}
+#parrafos p:last-child{
+    background-color: #ff8000;
+}
+#parrafos p:nth-child(3){
+    font-weight: bold;    
+}
+
+#parrafos p::first-letter{
+    font-size: 24px;
+}
+blockquote::before{
+    content:"🚗";
+}
+blockquote::after{
+    content:"🚲";
+}
+ul li::marker{
+    content:"🍔";
+}
+ul li ul li::marker{
+    content:"🍟"
+}
+ul li ul li ul li::marker{
+    content:"🥤"
 }
