@@ -5,15 +5,15 @@
   <title>HTML5 Kitchen Sink</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/Estilos2.css">
+  <link rel="stylesheet" href="css/Ejercicio-kitchen.css">
 </head>
 
 <body>
   <header role="banner">
     <a href="index.html"><mark>🏡 Inicio</mark></a>
     <h1>HTML5 Kitchen Sink</h1>
-    <small>Jump to: <a href="#headings">Headings</a> | <a href="#sections">Sections</a> | <a href="#phrasing">Phrasing</a> | <a href="#palpable">Palpable Content</a> | <a href="#embeds">Embeds</a> | <a href="#forms">Forms</a> | <a href="#tables">Tables</a> </small>    <br><br>
-    <p>This section serves as the <code>header</code>.</p>
+    <small id="small">Jump to: <a href="#headings">Headings</a> | <a href="#sections">Sections</a> | <a href="#phrasing">Phrasing</a> | <a href="#palpable">Palpable Content</a> | <a href="#embeds">Embeds</a> | <a href="#forms">Forms</a> | <a href="#tables">Tables</a> </small>    <br><br>
+    <div class="p"><p>This section serves as the <code>header</code>.</p></div><p>This section serves as the <code>header</code>.</p>
   </header>
   <hr>
   <main>
@@ -69,7 +69,7 @@
           <p>↑ The previous paragraph should not be displayed. ↑</p>
         </section>
       </article>
-      <aside>
+      <aside id="aside">
         <p>This is contained in an <code>aside</code> element.</p>
       </aside>
       <footer>
@@ -357,7 +357,7 @@ United States
           <label for="checkbox2">and/or check me out</label>
         </fieldset>
         <p>
-          <button type="button" name="button">Button</button>
+          <button id="boton" type="button" name="button">Button</button>
           <input type="button" name="input" value="Input Button">
           <input type="submit" name="submit" value="Input Submit">
           <button type="submit" name="submit2">Submit</button>
@@ -450,7 +450,7 @@ A leaflet.
       <hr>
       <h4 id="tables"><a href="#tables">#</a> Tables</h4>
       <table>
-        <caption>Tables can have captions now.</caption>
+        <caption id="t">Tables can have captions now.</caption>
         <tbody>
           <tr>
             <th>Person</th>
@@ -504,7 +504,7 @@ A leaflet.
       </table>
       <table>
         <caption>Complex table with a <code>thead</code>, multiple <code>tbody</code> elements, and a <code>tfoot</code>.</caption>
-        <thead>
+        <thead id="ttabla">
           <tr>
             <th></th>
             <th>2008</th>
@@ -512,7 +512,7 @@ A leaflet.
             <th>2006</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody id="ctabla">
           <tr>
             <th>Net sales</th>
             <td>$32,479</td>
@@ -525,8 +525,6 @@ A leaflet.
             <td>15,852</td>
             <td>13,717</td>
           </tr>
-        </tbody>
-        <tbody>
           <tr>
             <th>Gross margin</th>
             <td>$11,145</td>
@@ -534,7 +532,7 @@ A leaflet.
             <td>$5,598</td>
           </tr>
         </tbody>
-        <tfoot>
+        <tfoot id="ftabla">
           <tr>
             <th>Gross margin percentage</th>
             <td>34.3%</td>
@@ -693,15 +691,6 @@ http://placekitten.com/120/150 1x">
       <footer>
         <p>See the <a target="_blank" href="https://www.w3.org/TR/html5/dom.html#embedded-content">Embedded Content spec.</a></p>
       </footer>
-    </section>
-    <section id="parrafos">
-      <p>contenido 1</p>
-      <p>contenido 2</p>
-      <p>contenido 3</p>
-      <p>contenido 4</p>
-      <p>contenido 5</p>
-      <p>contenido 6</p>
-      <p>contenido 7</p>
     </section>
   </main>
   <hr>

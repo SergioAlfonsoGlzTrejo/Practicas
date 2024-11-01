@@ -1,0 +1,88 @@
+p{
+  font-family: "Playwrite GB S", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+h1{
+    color:#FAA916
+}
+
+h1{
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+.p{
+    background-color: #009FFD; 
+}
+
+section{
+    background-color: #81559B; 
+}
+
+footer{
+    background-color: #96031A;
+}
+
+#small {
+    font-size: 50px; 
+}
+
+#headings{
+    background-color: #00CC66;
+}
+
+#sections{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+a:hover{
+    color: #96031A;
+}
+
+a:focus{
+    color: #81559B;
+}
+
+#ctabla{
+    background-color: #FAA916;
+}
+
+#ttabla{
+    background-color: #00CC66;
+}
+
+#ftabla{
+    background: #96031A;
+}
+
+#boton{
+    background: #00CC66;
+}
+
+[type="text"]{
+    border: 2px solid #81559B;
+}
+
+input[type]{
+    background-color: #FAA916;
+}
+
+ul > li {
+    background-color: #009FFD; 
+}
+
+#aside{
+    background-color: #00CC66;
+}
+
+p code {
+     background-color: #009FFD; /* Aplica el subrayado */
+}
