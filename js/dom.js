@@ -40,4 +40,18 @@ for(let i=1; i<=5;  i++){
     lista.appendChild(item);
 }
 
-padre_parrafo.appendChild(lista);
+// padre_parrafo.appendChild(lista);
+
+
+// let parrafo =document.querySelector("p");
+// document.body.removeChild(parrafo);
+
+// let ultimo_parrafo=document.querySelector("p:last-child");
+// ultimo_parrafo.remove();
+
+// let nodo=document.body;
+// while(nodo.firstChild){
+//     nodo.removeChild(nodo.firstChild);
+// }
+
+// document.body.innerHTML="";
