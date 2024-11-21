@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenLibrary API</title>
+  <!-- Pico CSS para un diseño básico -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+  <!-- Archivo CSS personalizado -->
+  <link rel="stylesheet" href="css/apiAleatoria.css">
+</head>
+<body>
+  <header>
+    <h1>OpenLibrary Books</h1>
+  </header>
+  <main class="container">
+    <section>
+      <input type="text" id="book-title" placeholder="Busca un libro por título..." />
+      <button id="search-button">Buscar</button>
+    </section>
+    <section>
+      <div id="results"></div>
+    </section>
+  </main>
+  <script src="js/apiAleatoria.js"></script>
+</body>
+</html>

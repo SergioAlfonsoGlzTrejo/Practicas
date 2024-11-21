@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manejo de eventos de JS</title>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+</head>
+<article class="container">
+    <article>
+        <h1>Manejo de eventos</h1>
+        <h2>Proipiedad <code>on</code></h2>
+        <button onclick="saludar()">Saludar</button>
+        <output id="salida_boton">Nada por ahora</output>
+    </article>
+    <article>
+        <h2>Event listener</h2>
+        <button id="otro_boton">Otro Boton</button>
+        <output id="salida_otro">Nada por ahora</output>
+    </article>
+    <article>
+        <h2>Eventos de Input</h2>
+        <form action="#">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre"/>
+        </form>
+        <output id="salida_teclado">Nada por aqui </output>
+    </article>
+    <article>
+        <h2>formulario</h2>
+    <form id="miform">
+        <fieldset>
+            <label for="a"> Valor <code>A</code></label>
+            <input type="number" id="a" name="a">
+        </fieldset>
+        <fieldset>
+            <label for="b"> Valor <code>B</code></label>
+            <input type="number" id="b" name="b">
+        </fieldset>
+        <fieldset>
+            <button type="submit" id="sumaBtn"> Sumar </button>
+        </fieldset>
+        </form>
+        <code id="salida_suma"> 0</code>
+ </article>
+<body>
+    <script src="js/Eventos.js"></script>
+</body>
+</html>

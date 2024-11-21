@@ -1,0 +1,69 @@
+/* Estilos para las tarjetas de libros */
+.book-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  max-width: 200px;
+  background-color: #f9f9f9;
+}
+
+.book-card img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.book-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.book-card p {
+  font-size: 14px;
+  color: #555;
+  text-align: center;
+}
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 14px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
